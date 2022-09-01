@@ -1,0 +1,106 @@
+#outer
+{
+    height: auto;
+    width: 100%;
+}
+#header
+{
+    height:40px;
+    width: 100%;
+}
+.mainDiv
+{
+    height: 177px;
+    width: 94%;
+    padding: 22px;
+    margin: 15px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.left
+{
+    height: 100%;
+    width: 25%;
+}
+.right{
+    height: 100%;
+    width: 72%;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-left: 2px solid #e7dada;
+}
+.top
+{
+    height: 34%;
+    width: 100%;
+    padding-bottom: 44px;
+    border-bottom: 2px solid #afa0a0;
+}
+.bottom
+{
+    height:39%;
+    width: 100%;
+    display: flex;
+}
+.bottom_left
+{
+    height: 32%;
+    width: 47%;
+    padding-top: 28px;
+    display: flex;
+    justify-content: space-between;
+ 
+    padding-left: 25px;
+    padding-bottom: 12px;
+    padding-right: 25px;
+}
+.bottom_right
+{
+    height: 83%;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 5%;
+    padding-bottom: 0px; 
+}
+.bottom_right>p{
+    padding-top: 14px;
+    font-size: 22px;
+}
+input{
+    height: 20px;
+    margin-top: 10px;
+    width: 215px;
+    font-size: 22px;
+    border: none;
+    text-align: center;
+    background: none;
+}
+button{
+    height: 40px;
+    width: 43px;
+    font-size: 30px;
+    border: none;
+    background: none;
+}
+#productData
+{
+    height: 200px;
+    width: 88%;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: space-between;
+}
+#btnCheckout
+{
+    height: 50px;
+    font-size: 25px;
+    width: 175px;
+    color: white;
+    background-color: #39b1a6;;
+}
+h1{
+    color:#39b1a6;
+}
